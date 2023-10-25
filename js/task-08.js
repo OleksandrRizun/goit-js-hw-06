@@ -14,6 +14,8 @@ const handleSubmit = (event) => {
         password: password.value,
     }
     console.log(user);
+    email.value = "";
+    password.value = "";
 }
 
 formElem.addEventListener("submit", handleSubmit);
